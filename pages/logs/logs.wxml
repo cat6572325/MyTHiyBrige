@@ -1,0 +1,8 @@
+<import src="../../list-item/home_item.wxml" />
+<view class="container">
+  <block wx:for="{{projects}}"  wx:for-item="projectItem">
+    <view>
+        <template is="item" data="{{projectItem}} " />
+    </view>
+  </block>
+</view>

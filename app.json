@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/staff/staff",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+   "tabBar": {
+    "backgroundColor": "#fbfbfb",
+    "borderStyle": "white",
+    "selectedColor": "#1976d2",
+    "color": "#aaa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "项目",
+        "iconPath": "images/icons/home_gray.png",
+        "selectedIconPath": "images/icons/home.png"
+      },
+      {
+        "text": "人员",
+        "pagePath": "pages/staff/staff",
+        "iconPath": "images/icons/member.png",
+        "selectedIconPath": "images/icons/member_selected.png"
+      }
+    ]
+  }
+}

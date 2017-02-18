@@ -1,0 +1,13 @@
+<import src="../../list-item/home_item.wxml" />
+<view style="height:{{winHeight}}px; width:{{winWidth}}px">
+  <view class="state_frame">
+    <text class="state_text">状态</text>
+    <view class="point"></view>
+    <switch class="switch" type="switch" />
+  </view>
+  
+    <view>
+        <template is="item" data="{{lists}}" />
+    </view>
+
+</view>

@@ -1,0 +1,33 @@
+
+<template name="item">
+<block wx:for="{{lists}}"  wx:for-item="index">
+  <view class="project">
+
+    <!--left-->
+    <view class="project-left">
+      <image mode="scaleToFill" src="http://images5.fanpop.com/image/photos/25700000/Luffy-one-piece-25736881-934-878.jpg"></image>
+    </view>
+
+    <!--right-->
+    <view class="project-right">
+      <!--title-->
+      <view calss="project-right-title">
+        <text>{{item.title}}</text>
+      </view>
+      <!--description and stage-->
+      <view class="description-stage">
+        <view class="project-right-description">
+          <text>后台管理界面</text>
+        </view>
+        <view class="project-right-stage">
+          <text>{{item.progression2}}</text>
+        </view>
+      </view>
+      <!--progress-->
+      <view class="project-right-progress">
+        <progress percent="10" stroke-width="4" color="#2196f3" />
+      </view>
+    </view>
+  </view>
+  </block>
+</template>

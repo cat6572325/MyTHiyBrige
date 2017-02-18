@@ -1,0 +1,91 @@
+/* pages/index/index.wxss */
+
+.state_frame {
+  border-radius: 6px;
+  background-color: #b9f6ca;
+  width: 90%;
+  height: 65px;
+  align-items: center;
+  margin: 40rpx; /*用margin的话会超出页面*/
+  display: flex; /* 我们第一步要创建一个flex文档流（创建伸缩容器） */
+  flex-flow: row wrap; 
+  justify-content: space-around;/* 然后我们定义了如何分配伸缩容器的剩余空间 */
+}
+
+.state_text {
+  /*伸缩容器剩余空间按比例应扩展多少空间*/
+  flex-grow: 0.1;
+  margin-left: 10px;
+  font-family: PingFangSC;
+	font-size: 18.5px;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+.point {
+  width: 19px;
+  height: 19px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-image: radial-gradient(circle at 50% 50%, rgba(79, 217, 128, 0.91), #2db853 68%, #27b24a);
+}
+
+.switch {
+  text-align: right;
+  flex-grow: 1.5;
+}
+
+/*列表item*/
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 15rpx;
+  padding: 30rpx 0rpx;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.project-left {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.project-left image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.project-right {
+  margin-right: 40rpx;
+  width: 520rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-right-title {
+  line-height: 48rpx;
+  color: #222;
+  font-size: 17px;
+}
+
+.project-right-description {
+  line-height: 18px;
+  font-size: 13px;
+  color: #999;
+}
+
+.project-right-stage {
+  line-height: 18px;
+  font-size: 13px;
+  color: #999;
+}
+
+.description-stage {
+  display: flex;
+  justify-content: space-between;
+}
+
+project-right-progress {
+}

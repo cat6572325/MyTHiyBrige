@@ -1,0 +1,56 @@
+/* pages/index/index.wxss */
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 15rpx;
+    padding: 30rpx 0rpx;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.project-left {
+    width: 120rpx;
+    height: 120rpx;
+}
+
+.project-left image {
+    width: 120rpx;
+    height: 120rpx;
+}
+
+.project-right {
+    margin-right: 40rpx;
+    width: 520rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-right-title {
+    line-height: 48rpx;
+    color: #222222;
+    font-size: 17px;
+}
+
+.project-right-description {
+    line-height: 18px;
+    font-size: 13px;
+    color: #999999;
+}
+
+.project-right-stage {
+    line-height: 18px;
+    font-size: 13px;
+    color: #999999;  
+}
+
+.description-stage {
+    display: flex;
+    justify-content: space-between;    
+}
+
+project-right-progress {
+
+}

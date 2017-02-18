@@ -1,0 +1,50 @@
+.item_style {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+}
+
+.head_image {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 15px;
+  float: left;
+  position: relative;
+  /*相对于*/
+}
+
+.point_image {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-image: radial-gradient(circle at 50% 50%, rgba(79, 217, 128, 0.91), #2db853 68%, #27b24a);
+  left: 0;
+  margin-left: 40px;
+  margin-top: 50px;
+  position: absolute;
+  /*相对于*/
+}
+
+.nickname_text {
+  float: left;
+  margin-top: 30px;
+  margin-left: 5px;
+  width: 83.5px;
+  height: 24px;
+  font-family: PingFangSC;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.explain_text {
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 68px;
+  height: 24px;
+  font-family: PingFangSC;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.54);
+}

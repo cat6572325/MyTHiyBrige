@@ -1,0 +1,6 @@
+<view class="item_style" wx:for="ssss}}"bindtap="item_click">
+<image class="head_image"src="http://images5.fanpop.com/image/photos/25700000/Luffy-one-piece-25736881-934-878.jpg"></image>
+<image class="point_image" ></image>
+<text class="nickname_text">名称</text>
+<text class="explain_text">职位</text>
+</view>
